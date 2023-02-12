@@ -57,7 +57,9 @@ class SignInScreen extends StatelessWidget {
           Container(
             width: size.width / 2,
             child: ElevatedButton(
-              onPressed: () {},
+              onPressed: () {
+                // Navigator.of(context).pushAndRemoveUntil(MaterialPageRoute(builder: (context) => S,), (route) => false)
+              },
               style: ElevatedButton.styleFrom(
                   backgroundColor: Colors.grey.shade800),
               child: Text("Sign in"),
