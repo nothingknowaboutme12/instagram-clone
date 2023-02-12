@@ -1,3 +1,2 @@
-# instagram
-
-A new instagram clone features series.
+# instagram-clone
+In this application we clone the instagram features.
